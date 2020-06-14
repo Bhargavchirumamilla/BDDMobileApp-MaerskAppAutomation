@@ -6,11 +6,8 @@
     <classes>
       <class name="com.maersk.apps.runner.CucumberTest">
         <methods>
-          <include name="report"/>
-          <include name="login" invocation-numbers="4"/>
-          <include name="launchTest"/>
+          <include name="login"/>
           <include name="setupDriver"/>
-          <include name="stopTest"/>
         </methods>
       </class> <!-- com.maersk.apps.runner.CucumberTest -->
     </classes>

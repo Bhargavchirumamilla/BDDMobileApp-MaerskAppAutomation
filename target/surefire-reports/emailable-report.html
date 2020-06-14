@@ -31,141 +31,199 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">6</td><td class="numi">5</td><td class="numi">0</td><td class="numi_attn">6</td><td class="numi">230.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.maersk.apps.runner.CucumberTest</td><td><a href="#m1"><b>setupDriver</b>  </a></td><td class="numi">1</td><td>1592162999276</td><td class="numi">0</td></tr>
 <tr><th colspan="4">Test &#8212; failed</th></tr>
-<tr class="failedodd"><td rowspan="6">com.maersk.apps.runner.CucumberTest</td><td><a href="#m1"><b>login</b>  ("Apps")</a></td><td class="numi">1</td><td>1592159816499</td><td class="numi">173778</td></tr><tr class="failedodd"><td><a href="#m2"><b>login</b>  ("Apps")</a></td><td class="numi">1</td><td>1592159816499</td><td class="numi">173778</td></tr><tr class="failedodd"><td><a href="#m3"><b>login</b>  ("Apps")</a></td><td class="numi">1</td><td>1592159816499</td><td class="numi">173778</td></tr><tr class="failedodd"><td><a href="#m4"><b>login</b>  ("Apps")</a></td><td class="numi">1</td><td>1592159816499</td><td class="numi">173778</td></tr><tr class="failedodd"><td><a href="#m5"><b>login</b>  ("Apps")</a></td><td class="numi">1</td><td>1592159816499</td><td class="numi">173778</td></tr><tr class="failedodd"><td><a href="#m6"><b>login</b>  ("Apps")</a></td><td class="numi">1</td><td>1592159816499</td><td class="numi">173778</td></tr>
-<tr><th colspan="4">Test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="6">com.maersk.apps.runner.CucumberTest</td><td><a href="#m7"><b>login</b>  ("Apps")</a></td><td class="numi">5</td><td>1592159768574</td><td class="numi">230004</td></tr><tr class="passedodd"><td><a href="#m8"><b>login</b>  ("Apps")</a></td><td class="numi">5</td><td>1592159768574</td><td class="numi">230004</td></tr><tr class="passedodd"><td><a href="#m9"><b>login</b>  ("Apps")</a></td><td class="numi">5</td><td>1592159768574</td><td class="numi">230004</td></tr><tr class="passedodd"><td><a href="#m10"><b>login</b>  ("Apps")</a></td><td class="numi">5</td><td>1592159768574</td><td class="numi">230004</td></tr><tr class="passedodd"><td><a href="#m11"><b>login</b>  ("Apps")</a></td><td class="numi">5</td><td>1592159768574</td><td class="numi">230004</td></tr><tr class="passedodd"><td><a href="#m12"><b>login</b>  ("Apps")</a></td><td class="numi">5</td><td>1592159768574</td><td class="numi">230004</td></tr>
+<tr class="failedodd"><td rowspan="1">com.maersk.apps.runner.CucumberTest</td><td><a href="#m2"><b>login</b>  ("Apps")</a></td><td class="numi">1</td><td>1592163013181</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="3">com.maersk.apps.runner.CucumberTest</td><td><a href="#m3"><b>launchTest</b>  </a></td><td class="numi">1</td><td>1592163013180</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>stopTest</b>  </a></td><td class="numi">1</td><td>1592163018206</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>report</b>  </a></td><td class="numi">1</td><td>1592163013182</td><td class="numi">0</td></tr>
 </table>
 <h1>Test</h1>
-<h2 id="m1">com.maersk.apps.runner.CucumberTest:login</h2>
+<h2 id="m1">com.maersk.apps.runner.CucumberTest:setupDriver</h2>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>Schedules Screen : Point-to-Point Schedules</td>
+<tr class="param stripe"><td>AppsConfig.properties</td>
 </tr>
 <tr><td style="padding-left:3em" colspan="1">
-<p>org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc=&apos;Point-to-Point&apos;]/android.widget.FrameLayout/android.widget.TextView})</p>
-cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
-<br/>at com.maersk.apps.runner.CucumberTest.login(CucumberTest.java:54)
-<br/>28 lines not shown
-<p>Caused by Can&apos;t locate an element by this strategy: By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc=&apos;Point-to-Point&apos;]/android.widget.FrameLayout/android.widget.TextView})</p>
-io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)
-<br/>at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
-<br/>at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(&lt;generated&gt;)
-<br/>at com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)
-<br/>at com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)
-<br/>at com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)
-<br/>at ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:139)
-<br/>1 lines not shown
-<p>Caused by Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2ff95fc6 (tried for 1 second(s) with 500 milliseconds interval)</p>
-org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
-<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
-<br/>at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
-<br/>at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)
-<br/>at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
-<br/>at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(&lt;generated&gt;)
-<br/>at com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)
-<br/>at com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)
-<br/>at com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.lang.reflect.Method.invoke(Method.java:498)
-<br/>at cucumber.runtime.Utils$1.call(Utils.java:40)
-<br/>at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-<br/>at cucumber.runtime.Utils.invoke(Utils.java:34)
-<br/>at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-<br/>at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-<br/>at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-<br/>at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-<br/>at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-<br/>at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-<br/>at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-<br/>at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-<br/>at com.maersk.apps.runner.CucumberTest.login(CucumberTest.java:54)
-<br/>28 lines not shown
-<p>Caused by Cannot locate an element using By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc=&apos;Point-to-Point&apos;]/android.widget.FrameLayout/android.widget.TextView})
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+<p>Connection refused (Connection refused)
 Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
 System info: host: &apos;Chirumamilla-Bhargavs-MacBook-Pro.local&apos;, ip: &apos;2405:201:c812:6fee:35a3:ebb:1af2:317b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: driver.version: AndroidDriver</p>
-io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
-<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-<br/>at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
-<br/>at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
-<br/>at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-<br/>at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-<br/>at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)
-<br/>at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)
-<br/>at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
-<br/>at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
-<br/>at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
-<br/>at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)
-<br/>at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)
-<br/>at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(&lt;generated&gt;)
-<br/>at com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)
-<br/>at com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)
-<br/>at com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)
+io.appium.java_client.remote.AppiumCommandExecutor.lambda$2(AppiumCommandExecutor.java:141)
+<br/>at java.util.Optional.orElseGet(Optional.java:267)
+<br/>at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:140)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+<br/>at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:132)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+<br/>at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:80)
+<br/>at com.maersk.apps.launcher.DeviceWrapper.StartAndroidDriver(DeviceWrapper.java:68)
+<br/>at com.maersk.apps.launcher.TestHarness.setupDriver(TestHarness.java:73)
 <br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 <br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 <br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 <br/>at java.lang.reflect.Method.invoke(Method.java:498)
-<br/>at cucumber.runtime.Utils$1.call(Utils.java:40)
-<br/>at cucumber.runtime.Timeout.timeout(Timeout.java:16)
-<br/>at cucumber.runtime.Utils.invoke(Utils.java:34)
-<br/>at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
-<br/>at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
-<br/>at cucumber.runtime.Runtime.runStep(Runtime.java:300)
-<br/>at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
-<br/>at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
-<br/>at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)
-<br/>at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)
-<br/>at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)
-<br/>at com.maersk.apps.runner.CucumberTest.login(CucumberTest.java:54)
-<br/>28 lines not shown
+<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+<br/>1 lines not shown
+<p>Caused by Connection refused (Connection refused)</p>
+java.net.PlainSocketImpl.socketConnect(Native Method)
+<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br/>at java.net.Socket.connect(Socket.java:589)
+<br/>at okhttp3.internal.platform.Platform.connectSocket(Platform.java:125)
+<br/>at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:238)
+<br/>at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:158)
+<br/>at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:256)
+<br/>at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:134)
+<br/>at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:113)
+<br/>at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+<br/>at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+<br/>at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:125)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
+<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
+<br/>at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
+<br/>at okhttp3.RealCall.execute(RealCall.java:77)
+<br/>at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:101)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:101)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+<br/>at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:129)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+<br/>at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+<br/>at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:209)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:132)
+<br/>at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+<br/>at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:94)
+<br/>at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:80)
+<br/>at com.maersk.apps.launcher.DeviceWrapper.StartAndroidDriver(DeviceWrapper.java:68)
+<br/>at com.maersk.apps.launcher.TestHarness.setupDriver(TestHarness.java:73)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+<br/>1 lines not shown
 </td></tr>
 </table>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m2">com.maersk.apps.runner.CucumberTest:login</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>Previous Searches : Point-to-Point Schedules</td>
-</tr>
-</table>
+<div style="padding-left:3em">
+<p>java.lang.NullPointerException</p>
+org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:143)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+<br/>1 lines not shown
+<p>Caused by null</p>
+com.maersk.apps.runner.CucumberTest.getFeatures(CucumberTest.java:59)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.lang.reflect.Method.invoke(Method.java:498)
+<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+<br/>at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:117)
+<br/>at org.testng.internal.Parameters.handleParameters(Parameters.java:426)
+<br/>at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
+<br/>at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
+<br/>at org.testng.TestRunner.run(TestRunner.java:617)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+<br/>at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+<br/>at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+<br/>at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+<br/>1 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m3">com.maersk.apps.runner.CucumberTest:login</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>Splash Screen</td>
-</tr>
-</table>
+<h2 id="m3">com.maersk.apps.runner.CucumberTest:launchTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m4">com.maersk.apps.runner.CucumberTest:login</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>Language Selection</td>
-</tr>
-</table>
+<h2 id="m4">com.maersk.apps.runner.CucumberTest:stopTest</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m5">com.maersk.apps.runner.CucumberTest:login</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>OnBoarding Screen</td>
-</tr>
-</table>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m6">com.maersk.apps.runner.CucumberTest:login</h2>
-<table cellspacing="0" cellpadding="0" class="result">
-<tr class="param"><th>Parameter #1</th></tr>
-<tr class="param stripe"><td>Tracking Screen</td>
-</tr>
-</table>
+<h2 id="m5">com.maersk.apps.runner.CucumberTest:report</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

@@ -6,9 +6,9 @@ com/maersk/utilities/BaseDeviceElement.class
 com/maersk/apps/launcher/TestHarness.class
 com/maersk/apps/pageobjects/OnBoardingScreen.class
 com/maersk/utilities/TestData.class
+com/maersk/apps/pageobjects/SchedulesActionBarPointToPointScreen.class
 com/maersk/apps/launcher/DeviceWrapper.class
 com/maersk/apps/helper/LoggerHelper.class
-com/maersk/apps/pageobjects/SchedulesTabScreen.class
 com/maersk/apps/runner/CucumberTest.class
 com/maersk/utilities/TestData$getValidCalenderDateMonthYear.class
 com/maersk/apps/launcher/LoadConfigurations.class
