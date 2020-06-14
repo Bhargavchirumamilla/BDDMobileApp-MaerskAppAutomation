@@ -124,9 +124,9 @@ public class TestHarness {
 		} else if (config.getLanguage().equalsIgnoreCase("FR")) {
 			configProperties = loadL18n.loadL18nProperties("base_fr.properties");
 		} else if (config.getLanguage().equalsIgnoreCase("POR")) {
-			configProperties = loadL18n.loadL18nProperties("base_pr.properties");
+			configProperties = loadL18n.loadL18nProperties("base_pt.properties");
 		} else if (config.getLanguage().equalsIgnoreCase("CH")) {
-			configProperties = loadL18n.loadL18nProperties("base_ch.properties");
+			configProperties = loadL18n.loadL18nProperties("base_zh.properties");
 		} else if (config.getLanguage().equalsIgnoreCase("JP")) {
 			configProperties = loadL18n.loadL18nProperties("base_jp.properties");
 		} else {
