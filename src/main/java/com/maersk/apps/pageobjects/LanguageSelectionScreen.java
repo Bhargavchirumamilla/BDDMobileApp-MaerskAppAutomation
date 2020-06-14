@@ -92,7 +92,7 @@ public class LanguageSelectionScreen extends BaseDeviceView {
 	public String txt_okorContinue() throws InterruptedException {
 		Onboarding = new OnBoardingScreen(testdriver);
 		tap(okorContinue);
-		visibilityOf(Onboarding.accept_termsConditions,7);
+		visibilityOf(Onboarding.accept_termsConditions,10);
 		return verify_text(Onboarding.accept_termsConditions);
 	}
 

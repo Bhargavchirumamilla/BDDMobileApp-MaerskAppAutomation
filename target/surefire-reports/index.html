@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -113,6 +113,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.maersk.apps.runner.CucumberTest" hash-for-method="login(Previous Searches : Point-to-Point Schedules)">login(Previous Searches : Point-to-Point Schedules)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.maersk.apps.runner.CucumberTest" hash-for-method="login(Splash Screen)">login(Splash Screen)</a> <!-- method navigator-link -->
@@ -174,7 +179,7 @@ Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an elem
 	at com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)
 	at com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)
 	at ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:139)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@58a4a74d (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2ff95fc6 (tried for 1 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
 	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
@@ -260,7 +265,7 @@ Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an elem
 	at com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)
 	at com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)
 	at ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:139)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@58a4a74d (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2ff95fc6 (tried for 1 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
 	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
@@ -347,6 +352,16 @@ Driver info: driver.version: AndroidDriver
               <span class="class-name">com.maersk.apps.runner.CucumberTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login(Previous Searches : Point-to-Point Schedules)">
+                  </a> <!-- login(Previous Searches : Point-to-Point Schedules) -->
+                  <span class="method-name">login</span>
+                  <span class="parameters">(Previous Searches : Point-to-Point Schedules)</span>
+                  <em>
+(Apps)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="login(Splash Screen)">
@@ -442,27 +457,31 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'login')
 data.setCell(0, 2, 'com.maersk.apps.runner.CucumberTest')
-data.setCell(0, 3, 169535);
+data.setCell(0, 3, 173778);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'login')
 data.setCell(1, 2, 'com.maersk.apps.runner.CucumberTest')
-data.setCell(1, 3, 20557);
+data.setCell(1, 3, 19943);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
 data.setCell(2, 2, 'com.maersk.apps.runner.CucumberTest')
-data.setCell(2, 3, 13711);
+data.setCell(2, 3, 13132);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'login')
 data.setCell(3, 2, 'com.maersk.apps.runner.CucumberTest')
-data.setCell(3, 3, 10212);
+data.setCell(3, 3, 10050);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'login')
 data.setCell(4, 2, 'com.maersk.apps.runner.CucumberTest')
-data.setCell(4, 3, 5208);
+data.setCell(4, 3, 8295);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'login')
+data.setCell(5, 2, 'com.maersk.apps.runner.CucumberTest')
+data.setCell(5, 3, 4800);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -500,37 +519,41 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">launchTest</span>
-                <span class="method-start">37140 ms</span>
+                <span class="method-start">39893 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">login(Splash Screen)</span>
-                <span class="method-start">37693 ms</span>
+                <span class="method-start">40130 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login(Language Selection)</span>
-                <span class="method-start">42901 ms</span>
+                <span class="method-start">44930 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login(OnBoarding Screen)</span>
-                <span class="method-start">56612 ms</span>
+                <span class="method-start">58062 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login(Tracking Screen)</span>
-                <span class="method-start">77169 ms</span>
+                <span class="method-start">78005 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">login(Schedules Screen : Point-to-Point Schedules)</span>
-                <span class="method-start">87381 ms</span>
+                <span class="method-start">88055 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login(Previous Searches : Point-to-Point Schedules)</span>
+                <span class="method-start">261839 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">report</span>
-                <span class="method-start">256920 ms</span>
+                <span class="method-start">270135 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
-                <span class="method-name">stopTest(org.testng.TestRunner@3e3861d7)</span>
-                <span class="method-start">262290 ms</span>
+                <span class="method-name">stopTest(org.testng.TestRunner@6d025d1d)</span>
+                <span class="method-start">275492 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

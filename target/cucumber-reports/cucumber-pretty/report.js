@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2369581,
+  "duration": 1599372,
   "status": "passed"
 });
 formatter.scenario({
@@ -44,18 +44,18 @@ formatter.match({
   "location": "Splash.launch_MaerskShipping_App()"
 });
 formatter.result({
-  "duration": 1656946755,
+  "duration": 2090744282,
   "status": "passed"
 });
 formatter.match({
   "location": "Splash.verify_Shipping_Icons_which_are_Scrolling()"
 });
 formatter.result({
-  "duration": 2349783924,
+  "duration": 1627033376,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1064855147,
+  "duration": 979849944,
   "status": "passed"
 });
 formatter.uri("1.LanguageSelection.feature");
@@ -73,7 +73,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 441737,
+  "duration": 437727,
   "status": "passed"
 });
 formatter.scenario({
@@ -99,15 +99,15 @@ formatter.match({
   "location": "LanguageSelection.user_In_Language_Selection_Screen()"
 });
 formatter.result({
-  "duration": 5824845056,
+  "duration": 5803173937,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1429051982,
+  "duration": 1129827910,
   "status": "passed"
 });
 formatter.before({
-  "duration": 490648,
+  "duration": 471699,
   "status": "passed"
 });
 formatter.scenario({
@@ -133,15 +133,15 @@ formatter.match({
   "location": "LanguageSelection.verify_Ok_Continue_Button_Bottom_of_the_screen()"
 });
 formatter.result({
-  "duration": 238123699,
+  "duration": 158098366,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1154578598,
+  "duration": 1127614596,
   "status": "passed"
 });
 formatter.before({
-  "duration": 435851,
+  "duration": 419005,
   "status": "passed"
 });
 formatter.scenario({
@@ -177,25 +177,25 @@ formatter.match({
   "location": "LanguageSelection.english_Language_Selected_Automatically_by_Default_With_TickIcon()"
 });
 formatter.result({
-  "duration": 142836124,
+  "duration": 150510415,
   "status": "passed"
 });
 formatter.match({
   "location": "LanguageSelection.select_any_Language()"
 });
 formatter.result({
-  "duration": 635502687,
+  "duration": 1052423764,
   "status": "passed"
 });
 formatter.match({
   "location": "LanguageSelection.select_Ok_Continue_Button_Bottom_of_the_screen()"
 });
 formatter.result({
-  "duration": 3058310211,
+  "duration": 2617428333,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1205348713,
+  "duration": 1075902659,
   "status": "passed"
 });
 formatter.uri("2.Onboarding.feature");
@@ -213,7 +213,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 489232,
+  "duration": 267916,
   "status": "passed"
 });
 formatter.scenario({
@@ -249,29 +249,29 @@ formatter.match({
   "location": "Onboarding.user_navigated_To_Terms_Conditions_screen_from_Country_Section_Screen()"
 });
 formatter.result({
-  "duration": 155323075,
+  "duration": 174781747,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.verify_Terms_Conditions_In_Header()"
 });
 formatter.result({
-  "duration": 94714760,
+  "duration": 98930807,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.verify_Accepting_the_terms_and_Conditions_of_use_Text()"
 });
 formatter.result({
-  "duration": 257766163,
+  "duration": 227064415,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1064760843,
+  "duration": 1174027222,
   "status": "passed"
 });
 formatter.before({
-  "duration": 4186517,
+  "duration": 266679,
   "status": "passed"
 });
 formatter.scenario({
@@ -317,43 +317,43 @@ formatter.match({
   "location": "Onboarding.select_View_Terms_Conditions_Button()"
 });
 formatter.result({
-  "duration": 135495870,
+  "duration": 616780163,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.verify_User_Navigated_to_terms_of_use_screen()"
 });
 formatter.result({
-  "duration": 1455191034,
+  "duration": 1519213749,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.verify_Header_of_Terms_Conditions()"
 });
 formatter.result({
-  "duration": 83713777,
+  "duration": 123703530,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.navigate_Back()"
 });
 formatter.result({
-  "duration": 240674498,
+  "duration": 189534336,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.accept_Terms_Conditions()"
 });
 formatter.result({
-  "duration": 2132857736,
+  "duration": 1022638965,
   "status": "passed"
 });
 formatter.after({
-  "duration": 963001563,
+  "duration": 1167632240,
   "status": "passed"
 });
 formatter.before({
-  "duration": 254301,
+  "duration": 289827,
   "status": "passed"
 });
 formatter.scenario({
@@ -399,43 +399,43 @@ formatter.match({
   "location": "Onboarding.verify_Existing_Customer()"
 });
 formatter.result({
-  "duration": 141614693,
+  "duration": 145757485,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.third_Pary_Agent()"
 });
 formatter.result({
-  "duration": 96861274,
+  "duration": 96482136,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.trucker()"
 });
 formatter.result({
-  "duration": 97425348,
+  "duration": 104610036,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.none_Of_the_Above()"
 });
 formatter.result({
-  "duration": 106636484,
+  "duration": 100711594,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.select_None_Of_the_Above()"
 });
 formatter.result({
-  "duration": 115049189,
+  "duration": 111799938,
   "status": "passed"
 });
 formatter.after({
-  "duration": 965333780,
+  "duration": 1051466320,
   "status": "passed"
 });
 formatter.before({
-  "duration": 311560,
+  "duration": 235295,
   "status": "passed"
 });
 formatter.scenario({
@@ -496,64 +496,64 @@ formatter.match({
   "location": "Onboarding.user_have_New_New_Price_and_Book_Feature_Image()"
 });
 formatter.result({
-  "duration": 1050155350,
+  "duration": 1101207321,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.pagination_bottom_of_the_screen()"
 });
 formatter.result({
-  "duration": 490204699,
+  "duration": 487848568,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.swipe_Right()"
 });
 formatter.result({
-  "duration": 1810560788,
+  "duration": 1828050181,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.user_have_Check_Spot_offer_and_Book_it_right_away_Image()"
 });
 formatter.result({
-  "duration": 104231820,
+  "duration": 95046903,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.swipe_Left()"
 });
 formatter.result({
-  "duration": 2224057482,
+  "duration": 1916939289,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.verify_User_in_New_New_Price_and_Book_Feature_Screen()"
 });
 formatter.result({
-  "duration": 79630825,
+  "duration": 88102181,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.swipe_Right()"
 });
 formatter.result({
-  "duration": 1966355935,
+  "duration": 1625741411,
   "status": "passed"
 });
 formatter.match({
   "location": "Onboarding.select_Got_It()"
 });
 formatter.result({
-  "duration": 89055090,
+  "duration": 87401317,
   "status": "passed"
 });
 formatter.after({
-  "duration": 864618143,
+  "duration": 878628846,
   "status": "passed"
 });
 formatter.before({
-  "duration": 677658,
+  "duration": 347884,
   "status": "passed"
 });
 formatter.scenario({
@@ -579,11 +579,11 @@ formatter.match({
   "location": "Onboarding.select_Allow_in_alert()"
 });
 formatter.result({
-  "duration": 42051101,
+  "duration": 49337940,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3690363767,
+  "duration": 3823899963,
   "status": "passed"
 });
 formatter.uri("3.Tracking.feature");
@@ -601,7 +601,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 203313,
+  "duration": 236108,
   "status": "passed"
 });
 formatter.scenario({
@@ -632,22 +632,22 @@ formatter.match({
   "location": "Home.user_navigated_To_Tracking()"
 });
 formatter.result({
-  "duration": 158442853,
+  "duration": 358414407,
   "status": "passed"
 });
 formatter.match({
   "location": "Home.verify_Login_Button()"
 });
 formatter.result({
-  "duration": 121335927,
+  "duration": 143680919,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3662376760,
+  "duration": 3683259978,
   "status": "passed"
 });
 formatter.before({
-  "duration": 340145,
+  "duration": 236051,
   "status": "passed"
 });
 formatter.scenario({
@@ -693,39 +693,39 @@ formatter.match({
   "location": "Home.verify_Tracking()"
 });
 formatter.result({
-  "duration": 668936676,
+  "duration": 543213207,
   "status": "passed"
 });
 formatter.match({
   "location": "Home.verify_Schedules()"
 });
 formatter.result({
-  "duration": 582042776,
+  "duration": 304011939,
   "status": "passed"
 });
 formatter.match({
   "location": "Home.verify_Price_Book()"
 });
 formatter.result({
-  "duration": 385274366,
+  "duration": 310559513,
   "status": "passed"
 });
 formatter.match({
   "location": "Home.verify_Live_Chat()"
 });
 formatter.result({
-  "duration": 610483739,
+  "duration": 322974981,
   "status": "passed"
 });
 formatter.match({
   "location": "Home.verify_More()"
 });
 formatter.result({
-  "duration": 336816840,
+  "duration": 637599097,
   "status": "passed"
 });
 formatter.after({
-  "duration": 3674939146,
+  "duration": 3735614810,
   "status": "passed"
 });
 formatter.uri("4.Schedules-Point-to-Point.feature");
@@ -743,7 +743,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 554503,
+  "duration": 239167,
   "status": "passed"
 });
 formatter.scenario({
@@ -779,29 +779,29 @@ formatter.match({
   "location": "SchedulesTab.tap_Schedules_Tab_Bar()"
 });
 formatter.result({
-  "duration": 1989458758,
+  "duration": 2267997911,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_In_Schedules_Tab_Bar_With_Header()"
 });
 formatter.result({
-  "duration": 748832400,
+  "duration": 1001418225,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Notifiaction_Icon_and_Logout_Button()"
 });
 formatter.result({
-  "duration": 256269286,
+  "duration": 370548504,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1197926509,
+  "duration": 1381718139,
   "status": "passed"
 });
 formatter.before({
-  "duration": 221406,
+  "duration": 194559,
   "status": "passed"
 });
 formatter.scenario({
@@ -842,36 +842,36 @@ formatter.match({
   "location": "SchedulesTab.verify_point_to_point()"
 });
 formatter.result({
-  "duration": 936091401,
+  "duration": 847053174,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_portcalls()"
 });
 formatter.result({
-  "duration": 760718802,
+  "duration": 618345832,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Vessels()"
 });
 formatter.result({
-  "duration": 605991276,
+  "duration": 783467811,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_default_in_point_to_point_Schedules()"
 });
 formatter.result({
-  "duration": 684716571,
+  "duration": 999572662,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1206480859,
+  "duration": 1222641630,
   "status": "passed"
 });
 formatter.before({
-  "duration": 202952,
+  "duration": 216610,
   "status": "passed"
 });
 formatter.scenario({
@@ -902,22 +902,22 @@ formatter.match({
   "location": "SchedulesTab.user_Install_App_first_time_Previous_search_should_be_disable_in_Schedules_Screen()"
 });
 formatter.result({
-  "duration": 5634209826,
+  "duration": 5551014124,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Search_for_Schedules_Tittle_while_Install_App_First()"
 });
 formatter.result({
-  "duration": 174304205,
+  "duration": 125556119,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1225227170,
+  "duration": 1214675256,
   "status": "passed"
 });
 formatter.before({
-  "duration": 298910,
+  "duration": 235665,
   "status": "passed"
 });
 formatter.scenario({
@@ -943,15 +943,15 @@ formatter.match({
   "location": "SchedulesTab.without_Selecting_From_and_to_Search_Button_is_disable()"
 });
 formatter.result({
-  "duration": 1287219607,
+  "duration": 900163790,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1206061649,
+  "duration": 1227731955,
   "status": "passed"
 });
 formatter.before({
-  "duration": 616785,
+  "duration": 851007,
   "status": "passed"
 });
 formatter.scenario({
@@ -987,29 +987,29 @@ formatter.match({
   "location": "SchedulesTab.validation_label_From_City_Country_Region_Title()"
 });
 formatter.result({
-  "duration": 216163865,
+  "duration": 176616608,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_City_Country_Region_PlaceHolder()"
 });
 formatter.result({
-  "duration": 132809624,
+  "duration": 117887161,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_From_City_Country_Region_icon_for_textfield()"
 });
 formatter.result({
-  "duration": 128444746,
+  "duration": 147802641,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1250062757,
+  "duration": 1214706082,
   "status": "passed"
 });
 formatter.before({
-  "duration": 301111,
+  "duration": 248825,
   "status": "passed"
 });
 formatter.scenario({
@@ -1068,36 +1068,36 @@ formatter.match({
   "location": "SchedulesTab.verify_Merchant_CY_under_Haulage_with_iCon()"
 });
 formatter.result({
-  "duration": 573179171,
+  "duration": 1005445118,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Select_Carrier_SD_with_iCon()"
 });
 formatter.result({
-  "duration": 163450154,
+  "duration": 238919455,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.select_Carrier_SD_and_Verify_it_is_selected()"
 });
 formatter.result({
-  "duration": 794249742,
+  "duration": 848840307,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.once_Again_Select_Merchant()"
 });
 formatter.result({
-  "duration": 869300717,
+  "duration": 1099219391,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1281112215,
+  "duration": 1214333947,
   "status": "passed"
 });
 formatter.before({
-  "duration": 178169,
+  "duration": 181644,
   "status": "passed"
 });
 formatter.scenario({
@@ -1133,29 +1133,29 @@ formatter.match({
   "location": "SchedulesTab.validation_label_To_City_Country_Region()"
 });
 formatter.result({
-  "duration": 175033755,
+  "duration": 193754346,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_To_City_Country_Region_PlaceHolder()"
 });
 formatter.result({
-  "duration": 80991032,
+  "duration": 159697593,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_TO_City_Country_Region_icon_for_textfield()"
 });
 formatter.result({
-  "duration": 83018550,
+  "duration": 136267993,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1200312913,
+  "duration": 1208169221,
   "status": "passed"
 });
 formatter.before({
-  "duration": 199041,
+  "duration": 188158,
   "status": "passed"
 });
 formatter.scenario({
@@ -1214,36 +1214,36 @@ formatter.match({
   "location": "SchedulesTab.verify_Merchant_CY_under_Haulage_with_iCon()"
 });
 formatter.result({
-  "duration": 933245221,
+  "duration": 1257828637,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Select_Carrier_SD_with_iCon()"
 });
 formatter.result({
-  "duration": 274926986,
+  "duration": 240921589,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.select_Carrier_SD_and_Verify_it_is_selected()"
 });
 formatter.result({
-  "duration": 870307654,
+  "duration": 1587038082,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.once_Again_Select_Merchant()"
 });
 formatter.result({
-  "duration": 863574703,
+  "duration": 821412036,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1219542109,
+  "duration": 1204474256,
   "status": "passed"
 });
 formatter.before({
-  "duration": 203946,
+  "duration": 198386,
   "status": "passed"
 });
 formatter.scenario({
@@ -1284,36 +1284,36 @@ formatter.match({
   "location": "SchedulesTab.bottom_of_the_screen_Advanced_search_tittle_with_icon_chevron_Down()"
 });
 formatter.result({
-  "duration": 1085350279,
+  "duration": 838665537,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.select_Advanced_Search()"
 });
 formatter.result({
-  "duration": 967583600,
+  "duration": 822312674,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_icon_chevron_Up()"
 });
 formatter.result({
-  "duration": 136017911,
+  "duration": 147471434,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.swipe_Down()"
 });
 formatter.result({
-  "duration": 1342243397,
+  "duration": 1354868958,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1203893799,
+  "duration": 1198046627,
   "status": "passed"
 });
 formatter.before({
-  "duration": 171701,
+  "duration": 171193,
   "status": "passed"
 });
 formatter.scenario({
@@ -1349,29 +1349,29 @@ formatter.match({
   "location": "SchedulesTab.date_Label()"
 });
 formatter.result({
-  "duration": 375089348,
+  "duration": 626615955,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.by_Default_Earliest_Departure_is_Enabled_with_calender_icon()"
 });
 formatter.result({
-  "duration": 231559817,
+  "duration": 234654793,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.select_Latest_Arrival_with_calender_icon()"
 });
 formatter.result({
-  "duration": 640624946,
+  "duration": 766617122,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1215602124,
+  "duration": 1218826806,
   "status": "passed"
 });
 formatter.before({
-  "duration": 199438,
+  "duration": 186655,
   "status": "passed"
 });
 formatter.scenario({
@@ -1397,15 +1397,15 @@ formatter.match({
   "location": "SchedulesTab.select_any_Date_Under_Calender_for_iOS_Picker_and_Android_Calender()"
 });
 formatter.result({
-  "duration": 3997630857,
+  "duration": 2742302138,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1271724709,
+  "duration": 1237819611,
   "status": "passed"
 });
 formatter.before({
-  "duration": 213121,
+  "duration": 193563,
   "status": "passed"
 });
 formatter.scenario({
@@ -1451,43 +1451,43 @@ formatter.match({
   "location": "SchedulesTab.verify_Secound_Week()"
 });
 formatter.result({
-  "duration": 615882259,
+  "duration": 181352498,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_fourth_Week()"
 });
 formatter.result({
-  "duration": 156248792,
+  "duration": 625221446,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_six_Week()"
 });
 formatter.result({
-  "duration": 149145690,
+  "duration": 102859654,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_eight_Week()"
 });
 formatter.result({
-  "duration": 601524625,
+  "duration": 145045644,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.select_any_Week()"
 });
 formatter.result({
-  "duration": 1089870720,
+  "duration": 829600876,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1198591932,
+  "duration": 1204713865,
   "status": "passed"
 });
 formatter.before({
-  "duration": 201066,
+  "duration": 160756,
   "status": "passed"
 });
 formatter.scenario({
@@ -1519,15 +1519,15 @@ formatter.match({
   "location": "SchedulesTab.by_Default_Dry_Standard_Continer_with_continer_icon_and_icon(int)"
 });
 formatter.result({
-  "duration": 863185725,
+  "duration": 712298462,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1212326822,
+  "duration": 1201348314,
   "status": "passed"
 });
 formatter.before({
-  "duration": 164128,
+  "duration": 179054,
   "status": "passed"
 });
 formatter.scenario({
@@ -1558,22 +1558,22 @@ formatter.match({
   "location": "SchedulesTab.tap_Container_Type_feild()"
 });
 formatter.result({
-  "duration": 2254478728,
+  "duration": 1719136459,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Two_Sections_All_Temperature_Controlled()"
 });
 formatter.result({
-  "duration": 2350445544,
+  "duration": 3700173524,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1344162853,
+  "duration": 1276108114,
   "status": "passed"
 });
 formatter.before({
-  "duration": 336258,
+  "duration": 165993,
   "status": "passed"
 });
 formatter.scenario({
@@ -1647,7 +1647,7 @@ formatter.match({
   "location": "SchedulesTab.verify_Regular_Sized_Cargo_with_Dry_Standard_Dry_Standard_Dry_High_Dry_High_with_Container_iCons(int,int,int,int)"
 });
 formatter.result({
-  "duration": 1546769422,
+  "duration": 1022192913,
   "status": "passed"
 });
 formatter.match({
@@ -1664,7 +1664,7 @@ formatter.match({
   "location": "SchedulesTab.verify_Reefer_Equipment_with_Reefer_Standard_Reefer_High_with_Container_iCons(int,int)"
 });
 formatter.result({
-  "duration": 546423238,
+  "duration": 457923653,
   "status": "passed"
 });
 formatter.match({
@@ -1693,14 +1693,14 @@ formatter.match({
   "location": "SchedulesTab.verify_Odd_Sized_Cargo_with_Open_Top_open_Top_Open_Top_High_Flat_Standard_Flat_High_with_Container_iCons(int,int,int,int,int)"
 });
 formatter.result({
-  "duration": 988318118,
+  "duration": 893295343,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.swipe_Down()"
 });
 formatter.result({
-  "duration": 1347868287,
+  "duration": 1336408751,
   "status": "passed"
 });
 formatter.match({
@@ -1721,29 +1721,29 @@ formatter.match({
   "location": "SchedulesTab.verify_Shippers_Own_with_Flat_tank_and_tank(int,int,int)"
 });
 formatter.result({
-  "duration": 965913672,
+  "duration": 1361421832,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Help_Text()"
 });
 formatter.result({
-  "duration": 93621361,
+  "duration": 80805235,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.swipe_Up()"
 });
 formatter.result({
-  "duration": 2586278291,
+  "duration": 2606706951,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1265234950,
+  "duration": 1283081693,
   "status": "passed"
 });
 formatter.before({
-  "duration": 206220,
+  "duration": 174167,
   "status": "passed"
 });
 formatter.scenario({
@@ -1794,7 +1794,7 @@ formatter.match({
   "location": "SchedulesTab.verify_Regular_Equipment_with_Reefer_Standard_Reefer_High_with_Container_iCons(int,int)"
 });
 formatter.result({
-  "duration": 3212807030,
+  "duration": 2437134141,
   "status": "passed"
 });
 formatter.match({
@@ -1807,14 +1807,14 @@ formatter.match({
   "location": "SchedulesTab.select_Reefer_High_Equipment(int)"
 });
 formatter.result({
-  "duration": 1244332342,
+  "duration": 1649582636,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Automatically_Navigated_to_Point_to_Point_Schedules()"
 });
 formatter.result({
-  "duration": 688850756,
+  "duration": 919999294,
   "status": "passed"
 });
 formatter.match({
@@ -1827,15 +1827,15 @@ formatter.match({
   "location": "SchedulesTab.verify_container_is_same_Reefer_High_Equipment_under_container_Type_section(int)"
 });
 formatter.result({
-  "duration": 79187,
+  "duration": 89193,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1193706068,
+  "duration": 1224574187,
   "status": "passed"
 });
 formatter.before({
-  "duration": 493364,
+  "duration": 350862,
   "status": "passed"
 });
 formatter.scenario({
@@ -1876,7 +1876,7 @@ formatter.match({
   "location": "SchedulesTab.tap_Container_Type_feild()"
 });
 formatter.result({
-  "duration": 1428269946,
+  "duration": 882587270,
   "status": "passed"
 });
 formatter.match({
@@ -1889,14 +1889,14 @@ formatter.match({
   "location": "SchedulesTab.select_Regular_Sized_Cargo_with_Dry_Standard(int)"
 });
 formatter.result({
-  "duration": 3697607257,
+  "duration": 2896782813,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Automatically_Navigated_to_Point_to_Point_Schedules()"
 });
 formatter.result({
-  "duration": 919433983,
+  "duration": 1238196528,
   "status": "passed"
 });
 formatter.match({
@@ -1909,15 +1909,15 @@ formatter.match({
   "location": "SchedulesTab.verify_container_is_same_Dry_Standard_under_container_Type_section(int)"
 });
 formatter.result({
-  "duration": 81824,
+  "duration": 88227,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1205557175,
+  "duration": 1191967392,
   "status": "passed"
 });
 formatter.before({
-  "duration": 271525,
+  "duration": 168133,
   "status": "passed"
 });
 formatter.scenario({
@@ -1978,60 +1978,60 @@ formatter.match({
   "location": "SchedulesTab.swipe_Up()"
 });
 formatter.result({
-  "duration": 2598721587,
+  "duration": 2549597333,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.select_City_Country_Region_Feild()"
 });
 formatter.result({
-  "duration": 1201753796,
+  "duration": 1298804495,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Navigated_to_Search_Bar_with_Search_Icon()"
 });
 formatter.result({
-  "duration": 67726798,
+  "duration": 68686694,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Search_for_a_departure_city()"
 });
 formatter.result({
-  "duration": 83349595,
+  "duration": 105120745,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.tap_Cancel_for_iOS_Only()"
 });
 formatter.result({
-  "duration": 5458399346,
+  "duration": 5596724020,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.ios_Select_City_Country_Region_Feild_in_Android_it_should_be_in_search_page()"
 });
 formatter.result({
-  "duration": 272520,
+  "duration": 212645,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Recent_Searches_Tittle()"
 });
 formatter.result({
-  "duration": 99537202,
+  "duration": 85958483,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_install_app_first_Recent_searches_cities_should_be_disable()"
 });
 formatter.result({
-  "duration": 5512376269,
+  "duration": 5138826262,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1049137980,
+  "duration": 1054725928,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2077,7 +2077,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 159871,
+  "duration": 197910,
   "status": "passed"
 });
 formatter.scenario({
@@ -2112,15 +2112,15 @@ formatter.match({
   "location": "SchedulesTab.type_any_city_half_of_word(String)"
 });
 formatter.result({
-  "duration": 1780356925,
+  "duration": 1723862341,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1054151375,
+  "duration": 1043096246,
   "status": "passed"
 });
 formatter.before({
-  "duration": 178487,
+  "duration": 160251,
   "status": "passed"
 });
 formatter.scenario({
@@ -2152,16 +2152,16 @@ formatter.match({
   "location": "SchedulesTab.validation_message_Please_Enter_or_More_Characters(int)"
 });
 formatter.result({
-  "duration": 5246345587,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Can\u0027t locate an element by this strategy: By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:139)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@58a4a74d (tried for 1 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\n\tat com.maersk.apps.runner.CucumberTest.login(CucumberTest.java:54)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\n\tat org.testng.TestRunner.run(TestRunner.java:617)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027Chirumamilla-Bhargavs-MacBook-Pro.local\u0027, ip: \u00272405:201:c812:6fee:35a3:ebb:1af2:317b%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\n\t... 50 more\n",
+  "duration": 5639349076,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Can\u0027t locate an element by this strategy: By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:139)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2ff95fc6 (tried for 1 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\n\tat com.maersk.apps.runner.CucumberTest.login(CucumberTest.java:54)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\n\tat org.testng.TestRunner.run(TestRunner.java:617)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027Chirumamilla-Bhargavs-MacBook-Pro.local\u0027, ip: \u00272405:201:c812:6fee:35a3:ebb:1af2:317b%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\n\t... 50 more\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 1033473150,
+  "duration": 1044101362,
   "status": "passed"
 });
 formatter.before({
-  "duration": 155514,
+  "duration": 164196,
   "status": "passed"
 });
 formatter.scenario({
@@ -2187,11 +2187,11 @@ formatter.match({
   "location": "SchedulesTab.verify_X_icon_and_Tap()"
 });
 formatter.result({
-  "duration": 107150827,
+  "duration": 299601914,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1071869472,
+  "duration": 1033154346,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2237,7 +2237,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 185976,
+  "duration": 199273,
   "status": "passed"
 });
 formatter.scenario({
@@ -2272,15 +2272,15 @@ formatter.match({
   "location": "SchedulesTab.search_for_Invalid_City(String)"
 });
 formatter.result({
-  "duration": 1611983287,
+  "duration": 1961411278,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1057012810,
+  "duration": 1072257258,
   "status": "passed"
 });
 formatter.before({
-  "duration": 154124,
+  "duration": 156724,
   "status": "passed"
 });
 formatter.scenario({
@@ -2306,11 +2306,11 @@ formatter.match({
   "location": "SchedulesTab.verify_There_are_no_cities_that_match_your_Search()"
 });
 formatter.result({
-  "duration": 855980488,
+  "duration": 761939504,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1079537127,
+  "duration": 1079331999,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2356,7 +2356,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 168686,
+  "duration": 185553,
   "status": "passed"
 });
 formatter.scenario({
@@ -2391,15 +2391,15 @@ formatter.match({
   "location": "SchedulesTab.search_for_valid_City(String)"
 });
 formatter.result({
-  "duration": 1895037984,
+  "duration": 3075963774,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1062793157,
+  "duration": 1060426229,
   "status": "passed"
 });
 formatter.before({
-  "duration": 188751,
+  "duration": 181048,
   "status": "passed"
 });
 formatter.scenario({
@@ -2440,36 +2440,36 @@ formatter.match({
   "location": "SchedulesTab.verify_country_Should_be_India()"
 });
 formatter.result({
-  "duration": 621461319,
+  "duration": 997300375,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Top_Results_and_Select()"
 });
 formatter.result({
-  "duration": 196918860,
+  "duration": 219469400,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Automatically_Navigated_to_Point_to_Point_Schedules()"
 });
 formatter.result({
-  "duration": 867735233,
+  "duration": 947693885,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_City_Name_is_Mumbai_MAHARASHTRA()"
 });
 formatter.result({
-  "duration": 90172627,
+  "duration": 98629506,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1214594578,
+  "duration": 1217763800,
   "status": "passed"
 });
 formatter.before({
-  "duration": 169512,
+  "duration": 175721,
   "status": "passed"
 });
 formatter.scenario({
@@ -2525,53 +2525,53 @@ formatter.match({
   "location": "SchedulesTab.select_To_City_Country_Region_text_field()"
 });
 formatter.result({
-  "duration": 1168308204,
+  "duration": 1702196426,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Navigated_to_Search_Bar_with_Search_Icon()"
 });
 formatter.result({
-  "duration": 85291949,
+  "duration": 83892743,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Search_for_a_destination_city_PlaceHolder()"
 });
 formatter.result({
-  "duration": 102337202,
+  "duration": 102320465,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.tap_Cancel_for_iOS_Only()"
 });
 formatter.result({
-  "duration": 5091916367,
+  "duration": 5590543463,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.ios_Select_City_Country_Region_Feild_in_Android_it_should_be_in_search_page()"
 });
 formatter.result({
-  "duration": 212881,
+  "duration": 171528,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Recent_Searches_Tittle()"
 });
 formatter.result({
-  "duration": 543342423,
+  "duration": 93107032,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_install_app_first_Recent_searches_cities_should_be_disable()"
 });
 formatter.result({
-  "duration": 5118746257,
+  "duration": 5082025950,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1055915635,
+  "duration": 1040737141,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2617,7 +2617,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 181345,
+  "duration": 186724,
   "status": "passed"
 });
 formatter.scenario({
@@ -2652,15 +2652,15 @@ formatter.match({
   "location": "SchedulesTab.type_any_city_half_of_word(String)"
 });
 formatter.result({
-  "duration": 903965001,
+  "duration": 1777574042,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1053267495,
+  "duration": 1046666284,
   "status": "passed"
 });
 formatter.before({
-  "duration": 153813,
+  "duration": 165469,
   "status": "passed"
 });
 formatter.scenario({
@@ -2692,16 +2692,16 @@ formatter.match({
   "location": "SchedulesTab.validation_message_Please_Enter_or_More_Characters(int)"
 });
 formatter.result({
-  "duration": 6147400796,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Can\u0027t locate an element by this strategy: By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:189)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@cc239ba (tried for 1 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\n\tat com.maersk.apps.runner.CucumberTest.login(CucumberTest.java:54)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\n\tat org.testng.TestRunner.run(TestRunner.java:617)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027Chirumamilla-Bhargavs-MacBook-Pro.local\u0027, ip: \u00272405:201:c812:6fee:35a3:ebb:1af2:317b%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\n\t... 50 more\n",
+  "duration": 5198132633,
+  "error_message": "org.openqa.selenium.NoSuchElementException: Can\u0027t locate an element by this strategy: By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:148)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:189)\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@5177e388 (tried for 1 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:141)\n\tat io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:60)\n\tat io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.getAttribute(\u003cgenerated\u003e)\n\tat com.maersk.utilities.BaseDeviceElement.verify_text(BaseDeviceElement.java:47)\n\tat com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)\n\tat com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\n\tat cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:165)\n\tat cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:63)\n\tat com.maersk.apps.runner.CucumberTest.login(CucumberTest.java:54)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:714)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:767)\n\tat org.testng.TestRunner.run(TestRunner.java:617)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:334)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:240)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1123)\n\tat org.testng.TestNG.run(TestNG.java:1031)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)\nCaused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //android.support.v7.app.ActionBar.ǃ[@content-desc\u003d\u0027Point-to-Point\u0027]/android.widget.FrameLayout/android.widget.TextView})\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.11.0\u0027, revision: \u0027e59cfb3\u0027, time: \u00272018-03-11T20:26:55.152Z\u0027\nSystem info: host: \u0027Chirumamilla-Bhargavs-MacBook-Pro.local\u0027, ip: \u00272405:201:c812:6fee:35a3:ebb:1af2:317b%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.6\u0027, java.version: \u00271.8.0_181\u0027\nDriver info: driver.version: AndroidDriver\n\tat io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:142)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:194)\n\tat io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)\n\t... 50 more\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 1038778909,
+  "duration": 1034510984,
   "status": "passed"
 });
 formatter.before({
-  "duration": 155803,
+  "duration": 156991,
   "status": "passed"
 });
 formatter.scenario({
@@ -2727,11 +2727,11 @@ formatter.match({
   "location": "SchedulesTab.verify_X_icon_and_Tap()"
 });
 formatter.result({
-  "duration": 151247757,
+  "duration": 148946273,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1053057777,
+  "duration": 1054258986,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2777,7 +2777,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 154625,
+  "duration": 145698,
   "status": "passed"
 });
 formatter.scenario({
@@ -2812,15 +2812,15 @@ formatter.match({
   "location": "SchedulesTab.search_for_Invalid_City(String)"
 });
 formatter.result({
-  "duration": 1275434626,
+  "duration": 1529909832,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1055375944,
+  "duration": 1063338311,
   "status": "passed"
 });
 formatter.before({
-  "duration": 155302,
+  "duration": 172833,
   "status": "passed"
 });
 formatter.scenario({
@@ -2846,11 +2846,11 @@ formatter.match({
   "location": "SchedulesTab.verify_There_are_no_cities_that_match_your_Search()"
 });
 formatter.result({
-  "duration": 778184009,
+  "duration": 1122564450,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1076540491,
+  "duration": 1079953234,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -2896,7 +2896,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 157414,
+  "duration": 215242,
   "status": "passed"
 });
 formatter.scenario({
@@ -2931,15 +2931,15 @@ formatter.match({
   "location": "SchedulesTab.search_for_valid_City(String)"
 });
 formatter.result({
-  "duration": 1315595880,
+  "duration": 1733118195,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1053707702,
+  "duration": 1052631336,
   "status": "passed"
 });
 formatter.before({
-  "duration": 155919,
+  "duration": 155456,
   "status": "passed"
 });
 formatter.scenario({
@@ -2980,36 +2980,36 @@ formatter.match({
   "location": "SchedulesTab.verify_country_Should_be_India()"
 });
 formatter.result({
-  "duration": 385601556,
+  "duration": 359789567,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Top_Results_and_Select()"
 });
 formatter.result({
-  "duration": 217278362,
+  "duration": 226382904,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Automatically_Navigated_to_Point_to_Point_Schedules()"
 });
 formatter.result({
-  "duration": 806972368,
+  "duration": 1346676558,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_City_Name_is_Guntur_AndhraPradesh()"
 });
 formatter.result({
-  "duration": 93442158,
+  "duration": 120190644,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1223215581,
+  "duration": 1210100053,
   "status": "passed"
 });
 formatter.before({
-  "duration": 164984,
+  "duration": 164543,
   "status": "passed"
 });
 formatter.scenario({
@@ -3045,29 +3045,29 @@ formatter.match({
   "location": "SchedulesTab.swipe_Down()"
 });
 formatter.result({
-  "duration": 1331820121,
+  "duration": 1319053278,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.search_is_enabled_after_selecting_From_and_To()"
 });
 formatter.result({
-  "duration": 845247465,
+  "duration": 1352189662,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.tap_Search()"
 });
 formatter.result({
-  "duration": 128132744,
+  "duration": 153577128,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1176496542,
+  "duration": 1226398572,
   "status": "passed"
 });
 formatter.before({
-  "duration": 161585,
+  "duration": 157700,
   "status": "passed"
 });
 formatter.scenario({
@@ -3118,50 +3118,50 @@ formatter.match({
   "location": "SchedulesTab.verify_From_City_with_Navigation_Icon()"
 });
 formatter.result({
-  "duration": 117898133,
+  "duration": 121232606,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_tO_City_with_Navigation_Icon()"
 });
 formatter.result({
-  "duration": 90197160,
+  "duration": 79656399,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_CY()"
 });
 formatter.result({
-  "duration": 188249404,
+  "duration": 185931961,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Earliest_Departure_With_Date()"
 });
 formatter.result({
-  "duration": 1086915063,
+  "duration": 1081903468,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Number_of_Weeks()"
 });
 formatter.result({
-  "duration": 220475316,
+  "duration": 211006673,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_Containert_Type()"
 });
 formatter.result({
-  "duration": 204438955,
+  "duration": 217409684,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1151803814,
+  "duration": 1148694752,
   "status": "passed"
 });
 formatter.before({
-  "duration": 142117,
+  "duration": 242722,
   "status": "passed"
 });
 formatter.scenario({
@@ -3208,36 +3208,36 @@ formatter.match({
   "location": "SchedulesTab.verify_sailings_for_for_this_city(int)"
 });
 formatter.result({
-  "duration": 638763476,
+  "duration": 617179091,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Couldn_t_find_any_schedules_matching_your_search()"
 });
 formatter.result({
-  "duration": 102895290,
+  "duration": 90972740,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.navigate_Back()"
 });
 formatter.result({
-  "duration": 126839472,
+  "duration": 147296168,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_point_to_point()"
 });
 formatter.result({
-  "duration": 1772263054,
+  "duration": 1719334933,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1221721891,
+  "duration": 1213754819,
   "status": "passed"
 });
 formatter.before({
-  "duration": 152714,
+  "duration": 152552,
   "status": "passed"
 });
 formatter.scenario({
@@ -3288,50 +3288,50 @@ formatter.match({
   "location": "SchedulesTab.swipe_Up()"
 });
 formatter.result({
-  "duration": 2563072128,
+  "duration": 2598510491,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.change_Merchant_CY_to_Carrier_SD_for_From_City_Country_Region()"
 });
 formatter.result({
-  "duration": 1302439023,
+  "duration": 1603702330,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.change_Merchant_CY_to_Carrier_SD_for_To_City_Country_Region()"
 });
 formatter.result({
-  "duration": 1005551440,
+  "duration": 1340191202,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.swipe_Down()"
 });
 formatter.result({
-  "duration": 1308130894,
+  "duration": 1317925041,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.tap_Search()"
 });
 formatter.result({
-  "duration": 635677530,
+  "duration": 168710309,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_SD()"
 });
 formatter.result({
-  "duration": 695731523,
+  "duration": 826732381,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1168151218,
+  "duration": 1131682106,
   "status": "passed"
 });
 formatter.before({
-  "duration": 150516,
+  "duration": 149756,
   "status": "passed"
 });
 formatter.scenario({
@@ -3378,32 +3378,244 @@ formatter.match({
   "location": "SchedulesTab.verify_sailings_for_for_this_city(int)"
 });
 formatter.result({
-  "duration": 1312743387,
+  "duration": 897706354,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.user_Couldn_t_find_any_schedules_matching_your_search()"
 });
 formatter.result({
-  "duration": 95563183,
+  "duration": 85709588,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.navigate_Back()"
 });
 formatter.result({
-  "duration": 163030094,
+  "duration": 146641791,
   "status": "passed"
 });
 formatter.match({
   "location": "SchedulesTab.verify_point_to_point()"
 });
 formatter.result({
-  "duration": 1548234799,
+  "duration": 1687344215,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1211277980,
+  "duration": 1207766126,
+  "status": "passed"
+});
+formatter.uri("5.PreviousSearches.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Previous Searches : Point-to-Point Schedules",
+  "description": "",
+  "id": "previous-searches-:-point-to-point-schedules",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@SanityTest"
+    }
+  ]
+});
+formatter.before({
+  "duration": 183090,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 4,
+      "value": "# TestCase - Verify Previous Searches (City, Country/Region)"
+    }
+  ],
+  "line": 5,
+  "name": "Verify Previous Searches",
+  "description": "",
+  "id": "previous-searches-:-point-to-point-schedules;verify-previous-searches",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 6,
+  "name": "Tap Previous Searches",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Verify Previous Searches Header",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "verify From (City,Country/Region) and To (City,Country/Region)",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SchedulesTab.tap_Previous_Searches()"
+});
+formatter.result({
+  "duration": 209902459,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_Previous_Searches_Header()"
+});
+formatter.result({
+  "duration": 708277555,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_From_City_Country_Region_and_To_City_Country_Region()"
+});
+formatter.result({
+  "duration": 221894757,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1208153961,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 183834,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 10,
+      "value": "# TestCase - Navigation Icon,CY,Earliest Departure With Date,Number of Weeks and Container Type"
+    }
+  ],
+  "line": 11,
+  "name": "Verify Previous Searches -Navigation Icon,CY,Earliest Departure With Date,Number of Weeks and Container Type",
+  "description": "",
+  "id": "previous-searches-:-point-to-point-schedules;verify-previous-searches--navigation-icon,cy,earliest-departure-with-date,number-of-weeks-and-container-type",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 12,
+  "name": "verify From City with Navigation Icon",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 13,
+  "name": "verify to City with Navigation Icon",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 14,
+  "name": "Verify CY",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 15,
+  "name": "verify Earliest Departure With Date",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 16,
+  "name": "Verify Number of Weeks",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 17,
+  "name": "Verify Container Type",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "SchedulesTab.verify_From_City_with_Navigation_Icon()"
+});
+formatter.result({
+  "duration": 495807529,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_tO_City_with_Navigation_Icon()"
+});
+formatter.result({
+  "duration": 89754035,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_CY()"
+});
+formatter.result({
+  "duration": 179126133,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_Earliest_Departure_With_Date()"
+});
+formatter.result({
+  "duration": 672191814,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_Number_of_Weeks()"
+});
+formatter.result({
+  "duration": 204861880,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_Containert_Type()"
+});
+formatter.result({
+  "duration": 172285342,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1211404499,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 155777,
+  "status": "passed"
+});
+formatter.scenario({
+  "comments": [
+    {
+      "line": 19,
+      "value": "# TestCase -  Navigate back from Previous Searches to point-to-point"
+    }
+  ],
+  "line": 20,
+  "name": "Navigate Back \u003c- from Previous Searches Screen",
+  "description": "",
+  "id": "previous-searches-:-point-to-point-schedules;navigate-back-\u003c--from-previous-searches-screen",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 21,
+  "name": "Navigate Back \u003c-",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 22,
+  "name": "Verify point-to-point",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "SchedulesTab.navigate_Back()"
+});
+formatter.result({
+  "duration": 137492905,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SchedulesTab.verify_point_to_point()"
+});
+formatter.result({
+  "duration": 1554847162,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 1214659649,
   "status": "passed"
 });
 });

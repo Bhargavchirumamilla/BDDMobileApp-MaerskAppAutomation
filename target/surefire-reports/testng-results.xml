@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="5" passed="4">
+<testng-results skipped="0" failed="1" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="220134" started-at="2020-06-14T17:20:11Z" finished-at="2020-06-14T17:23:51Z">
+  <suite name="Suite" duration-ms="230585" started-at="2020-06-14T18:36:08Z" finished-at="2020-06-14T18:39:58Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="220134" started-at="2020-06-14T17:20:11Z" finished-at="2020-06-14T17:23:51Z">
+    <test name="Test" duration-ms="230585" started-at="2020-06-14T18:36:08Z" finished-at="2020-06-14T18:39:58Z">
       <class name="com.maersk.apps.runner.CucumberTest">
-        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="setupDriver" is-config="true" duration-ms="37136" started-at="2020-06-14T22:49:34Z" finished-at="2020-06-14T22:50:11Z">
+        <test-method status="PASS" signature="setupDriver(java.lang.String)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="setupDriver" is-config="true" duration-ms="39888" started-at="2020-06-15T00:05:28Z" finished-at="2020-06-15T00:06:08Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupDriver -->
-        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="launchTest" is-config="true" duration-ms="457" started-at="2020-06-14T22:50:11Z" finished-at="2020-06-14T22:50:12Z">
+        <test-method status="PASS" signature="launchTest()[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="launchTest" is-config="true" duration-ms="168" started-at="2020-06-15T00:06:08Z" finished-at="2020-06-15T00:06:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchTest -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="5208" started-at="2020-06-14T22:50:12Z" description="Apps" data-provider="Feature" finished-at="2020-06-14T22:50:17Z">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="4800" started-at="2020-06-15T00:06:08Z" description="Apps" data-provider="Feature" finished-at="2020-06-15T00:06:13Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="13711" started-at="2020-06-14T22:50:17Z" description="Apps" data-provider="Feature" finished-at="2020-06-14T22:50:31Z">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="13132" started-at="2020-06-15T00:06:13Z" description="Apps" data-provider="Feature" finished-at="2020-06-15T00:06:26Z">
           <params>
             <param index="0">
               <value>
@@ -44,7 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="20557" started-at="2020-06-14T22:50:31Z" description="Apps" data-provider="Feature" finished-at="2020-06-14T22:50:51Z">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="19943" started-at="2020-06-15T00:06:26Z" description="Apps" data-provider="Feature" finished-at="2020-06-15T00:06:46Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +55,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="10212" started-at="2020-06-14T22:50:51Z" description="Apps" data-provider="Feature" finished-at="2020-06-14T22:51:01Z">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="10050" started-at="2020-06-15T00:06:46Z" description="Apps" data-provider="Feature" finished-at="2020-06-15T00:06:56Z">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="FAIL" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="169535" started-at="2020-06-14T22:51:01Z" description="Apps" data-provider="Feature" finished-at="2020-06-14T22:53:51Z">
+        <test-method status="FAIL" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="173778" started-at="2020-06-15T00:06:56Z" description="Apps" data-provider="Feature" finished-at="2020-06-15T00:09:50Z">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@ Caused by: org.openqa.selenium.NoSuchElementException: Can't locate an element b
 	at com.maersk.apps.pageobjects.SchedulesTabScreen.pleaseEnter3characters(SchedulesTabScreen.java:625)
 	at com.maersk.apps.stepdefinition.SchedulesTab.validation_message_Please_Enter_or_More_Characters(SchedulesTab.java:469)
 	at ✽.Then Validation message Please Enter 3 or More Characters(4.Schedules-Point-to-Point.feature:139)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@58a4a74d (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@2ff95fc6 (tried for 1 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:303)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:271)
 	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:121)
@@ -196,15 +196,26 @@ Driver info: driver.version: AndroidDriver
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="report" is-config="true" duration-ms="349" started-at="2020-06-14T22:53:51Z" finished-at="2020-06-14T22:53:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="stopTest(org.testng.ITestContext)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="stopTest" is-config="true" duration-ms="1525" started-at="2020-06-14T22:53:56Z" finished-at="2020-06-14T22:53:58Z">
+        <test-method status="PASS" signature="login(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="login" duration-ms="8295" started-at="2020-06-15T00:09:50Z" description="Apps" data-provider="Feature" finished-at="2020-06-15T00:09:58Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3e3861d7]]>
+                <![CDATA[Previous Searches : Point-to-Point Schedules]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="report()[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="report" is-config="true" duration-ms="337" started-at="2020-06-15T00:09:58Z" finished-at="2020-06-15T00:09:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="stopTest(org.testng.ITestContext)[pri:0, instance:com.maersk.apps.runner.CucumberTest@5c5a1b69]" name="stopTest" is-config="true" duration-ms="1373" started-at="2020-06-15T00:10:03Z" finished-at="2020-06-15T00:10:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6d025d1d]]>
               </value>
             </param>
           </params>
