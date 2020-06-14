@@ -8,8 +8,8 @@ Scenario: Navigate to Schedules Tab Bar
 	When User In Schedules Tab Bar With Header 
 	Then Verify Notifiaction Icon and Logout Button 
 	
-	#TestCase- Verify theree Slots for Schedules
-Scenario: Verify theree Slots for Schedules 
+	#TestCase- Verify 3 Slots for Schedules
+Scenario: Verify 3 Slots for Schedules 
 	When Verify point-to-point 
 	Then verify portcalls 
 	Then Verify Vessels 
